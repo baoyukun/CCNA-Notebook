@@ -1,0 +1,149 @@
+\documentclass{article}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+\usepackage[a4paper, left=10mm, right=10mm, top=20mm, bottom=20mm, headheight=25pt]{geometry}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{wallpaper}
+\usepackage{wrapfig}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{tcolorbox}
+\usepackage[acronym, toc, nogroupskip]{glossaries}
+
+\newglossary{tem}{tem}{tem}{Terms}
+\newglossary{cmd}{cmd}{cmd}{Commands}
+\makenoidxglossaries
+  
+\newacronym{uml}{UML}{User Mode Linux}
+\newacronym{nic}{NIC}{Network Interface Card or LAN adapter}
+\newacronym{lan}{LAN}{Local Area Network}
+\newacronym{wan}{WAN}{Wide Area Network}
+\newacronym{man}{MAN}{Metropolitan Area Network}
+\newacronym{wlan}{WLAN}{Wireless LAN}
+\newacronym{san}{SAN}{Storage Area Network}
+\newacronym{isp}{ISP}{Internet Service Provider}
+\newacronym{dsl}{DSL}{Digital Subscriber Line}
+\newacronym{adsl}{ADSL}{Asymmetrical Digital Subscriber Line}
+\newacronym{sdsl}{SDSL}{Symmetric Digital Subscriber Line}
+\newacronym{qos}{QoS}{Quality of Service}
+
+\newglossaryentry{physical port}{type=tem, name=physical port, description={\hspace{5mm}a connector or outlet on a networking device where the media is connected to an end device or another networking device}}
+\newglossaryentry{interface}{type=tem, name=interface, description={\hspace{5mm}specialized port on a networking device that connect to individual networks}}
+\newglossaryentry{network interface}{type=tem, name=network interface, description={\hspace{5mm}the port on a router}}
+\newglossaryentry{physical topology diagram}{type=tem, name=physical topology diagram, description={\hspace{5mm}identify the physical location of intermediary devices and cable installation}}
+\newglossaryentry{logical topology diagram}{type=tem, name=logical topology diagram, description={\hspace{5mm}identify devices, ports, and addressing scheme}}
+\newglossaryentry{redundancy}{type=tem, name=redundancy, description={\hspace{5mm}having multiple paths to a destination}}
+\newglossaryentry{packet-switched network}{type=tem, name=packet-switched network, description={\hspace{5mm}packet switching splits traffic into packets that are routed over a shared network}}
+\newglossaryentry{congestion}{type=tem, name=congestion, description={\hspace{5mm}the demand for bandwidth of simultaneous communications exceeds the amount available}}
+\newglossaryentry{network bandwidth}{type=tem, name=network bandwidth, description={\hspace{5mm}the number of bits that can be transmitted in a single second, measured in bps}}
+\newglossaryentry{confidentiality}{type=tem, name=confidentiality, description={\hspace{5mm}only the intended and authorized recipients can access and read data}}
+\newglossaryentry{integrity}{type=tem, name=integrity, description={\hspace{5mm}the information has not been altered in transmission}}
+\newglossaryentry{availability}{type=tem, name=availability, description={\hspace{5mm}timely and reliable access to data services for authorized users}}
+
+\newglossaryentry{lstart}{type=cmd, name=lstart, description={\hspace{5mm}start the whole network}}
+\newglossaryentry{lhalt}{type=cmd, name=lhalt, description={\hspace{5mm}stop gracefully the whole network}}
+\newglossaryentry{lcrash}{type=cmd, name=lcrash, description={\hspace{5mm}stop brutally or power off the whole network}}
+\newglossaryentry{visit}{ type=cmd, name=visit, description={\hspace{5mm}list all the machines running}}
+\newglossaryentry{lclean}{type=cmd, name=lclean, description={\hspace{5mm}delete all the temporary files}}
+\newglossaryentry{sudo -s}{type=cmd, name=sudo -s, description={\hspace{5mm}enter privileged mode}}
+\newglossaryentry{ping}{type=cmd, name=ping, description={\hspace{5mm}ping [IP destination], test the accessibility through an IP network}}
+\newglossaryentry{passwd}{type=cmd, name=passwd, description={\hspace{5mm}set a password for the root account}}
+\newglossaryentry{sudo ssh}{type=cmd, name=sudo ssh, description={\hspace{5mm}sudo ssh [IP destination], connect to a machine in the IP network}}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+\graphicspath{{images/}}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{CCNA: Introduction to Networks}
+\rhead{\includegraphics[width=14mm, height=6mm]{signature}}
+\rfoot{\thepage}
+
+\title{Notebook: CCNA Level 1}
+\author{\includegraphics[width=25mm, height=12mm]{signature}\\
+        \href{mailto:yukun.bao@telecom-paristech.fr}{\textit{yukun.bao@telecom-paristech.fr}}\\
+        SJTU-ParisTech Elite Institute of Technology}
+\date{\today}
+
+\setlength\parindent{0pt}
+
+\begin{document}
+\ThisCenterWallPaper{0.6}{icon}
+\maketitle
+\renewcommand*\contentsname{Course Index}
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+
+\addcontentsline{toc}{section}{Introduction}
+\section*{Introduction}
+\import{sections/}{Introduction}
+
+\section{Explore the Network}
+\import{sections/}{ExploretheNetwork}
+
+\section{Configure a Network Operating System}
+\import{sections/}{ConfigureaNetworkOperatingSystem}
+
+\section{Network Protocols and Communications}
+\import{sections/}{NetworkProtocolsandCommunications}
+
+\section{Network Access}
+\import{sections/}{NetworkAccess}
+
+\section{Ethernet}
+\import{sections/}{Ethernet}
+
+\section{Network Layer}
+\import{sections/}{NetworkLayer}
+
+\section{IP Addressing}
+\import{sections/}{IPAddressing}
+
+\section{Subnetting IP Networks}
+\import{sections/}{SubnettingIPNetworks}
+
+\section{Transport Layer}
+\import{sections/}{TransportLayer}
+
+\section{Application Layer}
+\import{sections/}{ApplicationLayer}
+
+\section{Build a Small Network}
+\import{sections/}{BuildaSmallNetwork}
+
+\newpage
+\printnoidxglossary[type=acronym]
+\printnoidxglossary[type=tem]
+\printnoidxglossary[type=cmd]
+\addcontentsline{toc}{section}{\listfigurename}
+\listoffigures
+\end{document}

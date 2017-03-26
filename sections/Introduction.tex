@@ -1,0 +1,84 @@
+\documentclass[crop=false]{standalone}
+
+\begin{document}
+The focus of this course is on learning the fundamentals of networking.We will do the following:
+\begin{itemize}
+  \item Examine human versus network communication and see the parallels between them
+  \item Be introduced to the two major models used to plan and implement networks: \textbf{OSI} and \textbf{TCP/IP}
+  \item Gain an understanding of the "layered" approach to networks
+  \item Become familiar with the various network devices and network addressing schemes
+  \item Discover the types of media used to carry data across the network
+  \item Be able to build simple LANs, perform basic configurations for routers and switches, and implement IP addressing schemes.
+\end{itemize}
+
+Our studying is based on the following environment:
+
+\begin{itemize}
+  \item System: \textbf{Ubuntu 16.04 LTS}\\
+        installed on virtual machine "Oracle VM VirtualBox"\footnote{\url{https://www.virtualbox.org}}
+  \item Tools:\begin{itemize}
+        \item \textbf{Packet tracer 7.0} by Cisco Academy Community
+        \item \textbf{Wireshark} Network traffic analyzer
+        \item \textbf{XTerm} standard terminal emulator for the X window system
+        \item \textbf{Netkit-ng/\acrshort{uml}} manipulation of virtual machines in \acrfull{uml}
+        \footnote{\url{https://netkit-ng.github.io}}
+        \end{itemize}
+  \item Optional system image: \textbf{RES101-Ubuntu-2017}\footnote{User name: res101; Password: res101-2017}\\
+        It integrates all necessary tools and is accessible on the Google Drive
+        \footnote{\url{https://drive.google.com/open?id=0Byh-un6Ly9NCWERmcXhJN2RlYVU}}.
+\end{itemize}
+
+\addcontentsline{toc}{subsection}{Familiar with virtual machine commands}
+\subsection*{Familiar with virtual machine commands}
+Here are the useful commands for manipulating virtual machines.
+
+\begin{tcolorbox}
+\begin{flushleft}
+  \textbf{\gls{lstart}}: start the whole network, machine by machine\\
+  \textbf{\gls{lstart} PC1}: only start PC1 in this network\\
+  \textbf{\gls{lhalt} [PC1]}: stop gracefully the whole network, machine by machine\\
+  \textbf{\gls{lcrash} [PC1]}: stop brutally or power off the whole network\\
+  \textbf{\gls{visit}}: list all the machines running\\
+  \textbf{\gls{lclean}}: delete all the temporary files\\
+\end{flushleft}
+\end{tcolorbox}
+
+\textbf{Attention}: \textit{lclean} is always appreciated after a \textit{lcrash} or \textit{lclean}.
+
+\addcontentsline{toc}{subsection}{Exercise on virtual machine}
+\subsection*{Exercise on virtual machine}
+We are now going to do an exercise. Exercise files include "\textit{lab.conf}"(description of network), "\textit{PC1.startup}"(initialization of PC1) and "\textit{PC2.startup}".
+
+\lstinputlisting[caption=Virtual Machine lab.conf]{programs/lab.conf}
+\lstinputlisting[caption=Virtual Machine PC1.startup]{programs/PC1.startup}
+\lstinputlisting[caption=Virtual Machine PC2.startup]{programs/PC2.startup}
+
+We can do many things on this network of two virtual machines. To start the network, first enter privileged mode by using \textit{\gls{sudo -s}}, then type \textit{lstart} under the project directory.
+
+\begin{enumerate}
+  \item Test connectivity from PC1 to PC2
+  \begin{itemize}
+    \item type \textit{\gls{ping}} 10.0.0.2(IP address of PC2)
+    \item interrupt the connection by \textit{Ctrl-C}
+  \end{itemize}
+  
+  \item Connect to virtual PCs from the Ubuntu environment
+  \begin{itemize}
+    \item in the PC1 window, type \textit{\gls{passwd}} to set a password for the root account
+    \item in a new terminal, type \textit{\gls{sudo ssh}} 172.16.0.1 to connect to PC1 (the password defined necessary)
+  \end{itemize}
+  
+  \item Capture network traffic to or from a machine
+  \begin{itemize}
+    \item keep "ping" running
+    \item in the terminal with "ssh" session, type \textit{tcpdump -i eth0 -w /hostlab/TP1-PC1-eth0.pcap}
+    \item interrupt it by \textit{Ctrl-C}
+  \end{itemize}
+  
+  \item Share files between virtual PCs and the Ubuntu environment
+  \begin{itemize}
+    \item run "Wireshark" and open TP1-PC1-eth0.pcap
+    \item at the end of test, stop "ssh" session, stop gracefully the whole network and clear all the temporary files.
+  \end{itemize}  
+\end{enumerate}
+\end{document}

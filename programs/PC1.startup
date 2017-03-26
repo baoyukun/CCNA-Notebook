@@ -1,0 +1,12 @@
+/sbin/ifconfig eth0 hw ether 00:00:00:01:00:aa
+/sbin/ifconfig eth0 10.0.0.1 netmask 255.255.255.0 up
+echo "0" > /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts
+
+chown root:root /root
+chmod 700 /root/.ssh
+chmod 755 /root
+chmod 644 /root/.ssh/*
+chmod 600 /root/.ssh/id_rsa
+route del default gw 172.16.0.1
+/etc/init.d/ssh start
+
