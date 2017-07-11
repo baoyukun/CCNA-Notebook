@@ -1,0 +1,59 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Course Index}}{3}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-2}{}{Introduction}}{4}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-3}{Introduction}}{4}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-4}{}{Familiar with virtual machine commands}}{4}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-5}{Familiar with virtual machine commands}}{5}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-6}{}{Exercise on virtual machine}}{5}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-4000}{QQ2-1-7}{Exercise on virtual machine}}{5}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{1}{x1-4002}{}{\numberline {1}Virtual Machine lab.conf}}{5}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{1}{x1-4017}{}{\numberline {2}Virtual Machine PC1.startup}}{5}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{1}{x1-4032}{}{\numberline {3}Virtual Machine PC2.startup}}{5}\relax 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{1}{x1-50001}{QQ2-1-11}{Explore the Network}}{6}\relax 
+\doTocEntry\tocsubsection{1.1}{\csname a:TocLink\endcsname{1}{x1-60001.1}{QQ2-1-12}{LANs,WANs and the Internet}}{6}\relax 
+\doTocEntry\tocsubsubsection{1.1.1}{\csname a:TocLink\endcsname{1}{x1-70001.1.1}{QQ2-1-13}{Network Components}}{6}\relax 
+\doTocEntry\toclof{a}{\csname a:TocLink\endcsname{1}{x1-7001r1}{}{\ignorespaces End devices\relax }}{subfigure}\relax 
+\doTocEntry\toclof{b}{\csname a:TocLink\endcsname{1}{x1-7002r2}{}{\ignorespaces Intermediary devices\relax }}{subfigure}\relax 
+\doTocEntry\toclof{2}{\csname a:TocLink\endcsname{1}{x1-70032}{}{\ignorespaces Devices}}{figure}\relax 
+\doTocEntry\toclof{3}{\csname a:TocLink\endcsname{1}{x1-70043}{}{\ignorespaces Media}}{figure}\relax 
+\doTocEntry\tocsubsubsection{1.1.2}{\csname a:TocLink\endcsname{1}{x1-80001.1.2}{QQ2-1-18}{Network Representations}}{7}\relax 
+\doTocEntry\toclof{4}{\csname a:TocLink\endcsname{1}{x1-80014}{}{\ignorespaces NIC}}{figure}\relax 
+\doTocEntry\toclof{5}{\csname a:TocLink\endcsname{1}{x1-80025}{}{\ignorespaces Network Representation symbols}}{figure}\relax 
+\doTocEntry\toclof{a}{\csname a:TocLink\endcsname{1}{x1-8003r1}{}{\ignorespaces Logical topology diagram\relax }}{subfigure}\relax 
+\doTocEntry\toclof{b}{\csname a:TocLink\endcsname{1}{x1-8004r2}{}{\ignorespaces Physical topology diagram\relax }}{subfigure}\relax 
+\doTocEntry\toclof{7}{\csname a:TocLink\endcsname{1}{x1-80057}{}{\ignorespaces Topology Diagram}}{figure}\relax 
+\doTocEntry\tocsubsubsection{1.1.3}{\csname a:TocLink\endcsname{1}{x1-90001.1.3}{QQ2-1-24}{LANs and WANs}}{13}\relax 
+\doTocEntry\toclof{8}{\csname a:TocLink\endcsname{1}{x1-90018}{}{\ignorespaces LANs and WANs}}{figure}\relax 
+\doTocEntry\tocsubsubsection{1.1.4}{\csname a:TocLink\endcsname{1}{x1-100001.1.4}{QQ2-1-26}{The Internet, Intranets, and Extranets}}{16}\relax 
+\doTocEntry\toclof{9}{\csname a:TocLink\endcsname{1}{x1-100019}{}{\ignorespaces Internet: collection of interconnected networks}}{figure}\relax 
+\doTocEntry\toclof{10}{\csname a:TocLink\endcsname{1}{x1-1000210}{}{\ignorespaces Internet Intranet and Extranet}}{figure}\relax 
+\doTocEntry\tocsubsubsection{1.1.5}{\csname a:TocLink\endcsname{1}{x1-110001.1.5}{QQ2-1-29}{Internet Connections}}{19}\relax 
+\doTocEntry\toclof{a}{\csname a:TocLink\endcsname{1}{x1-11001r1}{}{\ignorespaces Home and Small Office\relax }}{subfigure}\relax 
+\doTocEntry\toclof{b}{\csname a:TocLink\endcsname{1}{x1-11002r2}{}{\ignorespaces Businesses\relax }}{subfigure}\relax 
+\doTocEntry\toclof{12}{\csname a:TocLink\endcsname{1}{x1-1100312}{}{\ignorespaces Internet Connection Technology}}{figure}\relax 
+\doTocEntry\tocsubsection{1.2}{\csname a:TocLink\endcsname{1}{x1-120001.2}{QQ2-1-33}{Network Environments}}{22}\relax 
+\doTocEntry\tocsubsubsection{1.2.1}{\csname a:TocLink\endcsname{1}{x1-130001.2.1}{QQ2-1-34}{Reliable Network}}{22}\relax 
+\doTocEntry\toclof{13}{\csname a:TocLink\endcsname{1}{x1-1300413}{}{\ignorespaces Reliable Network: Fault tolerant}}{figure}\relax 
+\doTocEntry\toclof{14}{\csname a:TocLink\endcsname{1}{x1-1300514}{}{\ignorespaces Reliable Network: Scalability}}{figure}\relax 
+\doTocEntry\toclof{15}{\csname a:TocLink\endcsname{1}{x1-1300615}{}{\ignorespaces Reliable Network: \acrfull {qos}}}{figure}\relax 
+\doTocEntry\toclof{16}{\csname a:TocLink\endcsname{1}{x1-1300716}{}{\ignorespaces Reliable Network: Security}}{figure}\relax 
+\doTocEntry\tocsubsubsection{1.2.2}{\csname a:TocLink\endcsname{1}{x1-140001.2.2}{QQ2-1-39}{Network Trends}}{23}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{1}{x1-150002}{QQ2-1-40}{Configure a Network Operating System}}{23}\relax 
+\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{1}{x1-160003}{QQ2-1-41}{Network Protocols and Communications}}{23}\relax 
+\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{1}{x1-170004}{QQ2-1-42}{Network Access}}{23}\relax 
+\doTocEntry\tocsection{5}{\csname a:TocLink\endcsname{1}{x1-180005}{QQ2-1-43}{Ethernet}}{23}\relax 
+\doTocEntry\tocsection{6}{\csname a:TocLink\endcsname{1}{x1-190006}{QQ2-1-44}{Network Layer}}{23}\relax 
+\doTocEntry\tocsection{7}{\csname a:TocLink\endcsname{1}{x1-200007}{QQ2-1-45}{IP Addressing}}{23}\relax 
+\doTocEntry\tocsection{8}{\csname a:TocLink\endcsname{1}{x1-210008}{QQ2-1-46}{Subnetting IP Networks}}{23}\relax 
+\doTocEntry\tocsection{9}{\csname a:TocLink\endcsname{1}{x1-220009}{QQ2-1-47}{Transport Layer}}{24}\relax 
+\doTocEntry\tocsection{10}{\csname a:TocLink\endcsname{1}{x1-2300010}{QQ2-1-48}{Application Layer}}{24}\relax 
+\doTocEntry\tocsection{11}{\csname a:TocLink\endcsname{1}{x1-2400011}{QQ2-1-49}{Build a Small Network}}{24}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-50}{}{Acronyms}}{25}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-2500011}{QQ2-1-51}{Acronyms}}{25}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-52}{}{Terms}}{25}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-2600011}{QQ2-1-53}{Terms}}{25}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-54}{}{Commands}}{26}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-2700011}{QQ2-1-55}{Commands}}{26}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-56}{}{List of Figures}}{26}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-2800011}{QQ2-1-57}{List of Figures}}{26}\relax 
+\par 
