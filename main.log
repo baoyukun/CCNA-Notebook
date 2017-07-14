@@ -1,14 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=latex 2016.12.24)  11 JUL 2017 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.12.24)  14 JUL 2017 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx\HCode\def\HCod
-e##1{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g
-@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\doc
-umentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname te
-x4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HC
-ode}{\documentstyle[tex4ht]}}}\makeatother\HCode .a.b.c.\input  main.tex
-(./main.tex (f:/program/texlive/2016/texmf-dist/tex/latex/base/article.cls
+**./main.tex
+(./main.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(f:/program/texlive/2016/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (f:/program/texlive/2016/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -24,20 +22,6 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/tex4ht.sty
-version 2008-10-27-17:23
-Package: tex4ht 
---------------------------------------
---- Note --- for _ at preamble, use the command line option `early_'
---------------------------------------
---------------------------------------
---- Note --- for ^ at preamble, use the command line option `early^'
---------------------------------------
-\tmp:toks=\toks14
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/usepackage.4ht
-version 2009-05-21-09:32
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/standalone/standalone.sty
 Package: standalone 2015/07/15 v1.2 Package to include TeX sub-files with pream
@@ -58,8 +42,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (f:/program/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (f:/program/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks15
-\XKV@tempa@toks=\toks16
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
 
 (f:/program/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count87
@@ -124,10 +108,11 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (f:/program/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 96.
+Package graphics Info: Driver file: pdftex.def on input line 96.
 
-(f:/program/texlive/2016/texmf-dist/tex/latex/graphics/dvips.def
-File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+(f:/program/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count89
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -140,10 +125,10 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@lly=\dimen106
 \tc@urx=\dimen107
 \tc@ury=\dimen108
-Package trimclip Info: Using driver 'tc-dvips.def'.
+Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(f:/program/texlive/2016/texmf-dist/tex/latex/adjustbox/tc-dvips.def
-File: tc-dvips.def 2012/05/13 v1.0 Clipping driver for dvips
+(f:/program/texlive/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen109
 \adjbox@Height=\dimen110
@@ -152,12 +137,12 @@ File: tc-dvips.def 2012/05/13 v1.0 Clipping driver for dvips
 
 (f:/program/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count89
+\c@checkoddpage=\count90
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box27
-\sift@deathcycles=\count90
+\sift@deathcycles=\count91
 \@vwid@loff=\dimen113
 \@vwid@roff=\dimen114
 ))
@@ -177,9 +162,9 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count91
-\Gm@cntv=\count92
-\c@Gm@tempcnt=\count93
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
 \Gm@bindingoffset=\dimen115
 \Gm@wd@mp=\dimen116
 \Gm@odd@mp=\dimen117
@@ -188,7 +173,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutheight=\dimen120
 \Gm@layouthoffset=\dimen121
 \Gm@layoutvoffset=\dimen122
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks16
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip43
@@ -203,8 +188,8 @@ Package ifvtex Info: VTeX not detected.
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 
 (f:/program/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -523,7 +508,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (f:/program/texlive/2016/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count94
+\babel@savecnt=\count95
 \U@D=\dimen123
 )
 \l@canadian = a dialect from \language\l@american 
@@ -554,7 +539,7 @@ Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -573,26 +558,21 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-
-
-Package auxhook Warning: Cannot patch \document,
-(auxhook)                using \AtBeginDocument instead.
-
 )
 \@linkdim=\dimen124
-\Hy@linkcounter=\count95
-\Hy@pagecounter=\count96
- (f:/program/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+\Hy@linkcounter=\count96
+\Hy@pagecounter=\count97
+
+(f:/program/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count97
+\Hy@SavedSpaceFactor=\count98
 
 (f:/program/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
 Package hyperref Info: Hyper figures OFF on input line 4446.
 Package hyperref Info: Link nesting OFF on input line 4451.
 Package hyperref Info: Hyper index ON on input line 4454.
@@ -600,7 +580,7 @@ Package hyperref Info: Plain pages OFF on input line 4461.
 Package hyperref Info: Backreferencing OFF on input line 4466.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4691.
-\c@Hy@tempcnt=\count98
+\c@Hy@tempcnt=\count99
 
 (f:/program/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
@@ -608,10 +588,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5044.
 \XeTeXLinkMargin=\dimen125
-\Fld@menulength=\count99
+\Fld@menulength=\count100
 \Field@Width=\dimen126
 \Fld@charsize=\dimen127
-\Field@toks=\toks20
 Package hyperref Info: Hyper figures OFF on input line 6298.
 Package hyperref Info: Link nesting OFF on input line 6303.
 Package hyperref Info: Hyper index ON on input line 6306.
@@ -621,18 +600,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6323.
 Package hyperref Info: PDF/A mode OFF on input line 6328.
 LaTeX Info: Redefining \ref on input line 6368.
 LaTeX Info: Redefining \pageref on input line 6372.
-\Hy@abspage=\count100
-
-
-Package hyperref Message: Stopped early.
-
+\Hy@abspage=\count101
+\c@Item=\count102
+\c@Hfootnote=\count103
 )
 
-Package hyperref Message: Driver: htex4ht.
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(f:/program/texlive/2016/texmf-dist/tex/latex/hyperref/htex4ht.def
-File: htex4ht.def 2016/05/05 v6.83n Hyperref driver for TeX4ht
-Package hyperref Info: tex4ht is already loaded.
+(f:/program/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count104
+\c@bookmark@seq@number=\count105
+
+(f:/program/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip52
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -648,15 +633,13 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen133
 \caption@hangindent=\dimen134
 )
-\c@ContinuedFloat=\count101
+\c@ContinuedFloat=\count106
 Package caption Info: hyperref package is loaded.
-Package caption Info: Hyperref support is turned off
-(caption)             because hyperref has stopped early.
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-\c@subfigure=\count102
-\c@subtable=\count103
+\c@subfigure=\count107
+\c@subtable=\count108
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/wallpaper/wallpaper.sty
 Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
@@ -666,16 +649,16 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count104
-\calc@Bcount=\count105
+\calc@Acount=\count109
+\calc@Bcount=\count110
 \calc@Adimen=\dimen135
 \calc@Bdimen=\dimen136
-\calc@Askip=\skip52
-\calc@Bskip=\skip53
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count106
-\calc@Cskip=\skip54
+\calc@Ccount=\count111
+\calc@Cskip=\skip55
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
@@ -686,8 +669,9 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (f:/program/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -696,41 +680,41 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-\wpXoffset=\skip55
-\wpYoffset=\skip56
-\tileXoffset=\skip57
-\tileYoffset=\skip58
-\tilewidth=\skip59
-\tileheight=\skip60
-\tileX=\skip61
-\tileY=\skip62
+\wpXoffset=\skip56
+\wpYoffset=\skip57
+\tileXoffset=\skip58
+\tileYoffset=\skip59
+\tilewidth=\skip60
+\tileheight=\skip61
+\tileX=\skip62
+\tileY=\skip63
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen137
 \WF@size=\dimen138
-\c@WF@wrappedlines=\count107
+\c@WF@wrappedlines=\count112
 \WF@box=\box29
-\WF@everypar=\toks21
+\WF@everypar=\toks19
 Package: wrapfig 2003/01/31  v 3.6
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count108
+\lst@mode=\count113
 \lst@gtempboxa=\box30
-\lst@token=\toks22
-\lst@length=\count109
+\lst@token=\toks20
+\lst@length=\count114
 \lst@currlwidth=\dimen139
-\lst@column=\count110
-\lst@pos=\count111
+\lst@column=\count115
+\lst@pos=\count116
 \lst@lostspace=\dimen140
 \lst@width=\dimen141
-\lst@newlines=\count112
-\lst@lineno=\count113
+\lst@newlines=\count117
+\lst@lineno=\count118
 \lst@maxwidth=\dimen142
 
 (f:/program/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count114
-\lst@skipnumbers=\count115
+\c@lstnumber=\count119
+\lst@skipnumbers=\count120
 \lst@framebox=\box31
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
@@ -745,7 +729,7 @@ Package: tcolorbox 2016/04/27 version 3.91 text color boxes
 (f:/program/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks23
+\pgfutil@everybye=\toks21
 \pgfutil@tempdima=\dimen143
 \pgfutil@tempdimb=\dimen144
 
@@ -765,12 +749,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
 
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks24
 ))
 \pgf@x=\dimen145
 \pgf@y=\dimen146
@@ -782,40 +766,32 @@ ode.tex
 \pgf@yc=\dimen152
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count116
-\c@pgf@countb=\count117
-\c@pgf@countc=\count118
-\c@pgf@countd=\count119
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
+\c@pgf@counta=\count121
+\c@pgf@countb=\count122
+\c@pgf@countc=\count123
+\c@pgf@countd=\count124
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
 
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-tex4ht.def
+Driver file for pgf: pgfsys-pdftex.def
 
-(f:/program/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-tex4ht.d
+(f:/program/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
 ef
-File: pgfsys-tex4ht.def 2013/08/06  (rcs-revision 1.25)
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(f:/program/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-s
-vg.def
-File: pgfsys-common-svg.def 2013/08/28  (rcs-revision 1.24)
-\pgf@sys@svg@objectcount=\count120
-\pgf@sys@svg@scopecount=\count121
-)
-\pgf@sys@svg@picnum=\count122
-\pgf@sys@svg@nodenum=\count123
-\pgfsys@foreignobject@Box=\box33
-\pgf@s=\dimen153
-\pgf@t=\dimen154
-))
+(f:/program/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count124
-\pgfsyssoftpath@bigbuffer@items=\count125
+\pgfsyssoftpath@smallbuffer@items=\count125
+\pgfsyssoftpath@bigbuffer@items=\count126
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -827,12 +803,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen155
-\pgfmath@count=\count126
-\pgfmath@box=\box34
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@dimen=\dimen153
+\pgfmath@count=\count127
+\pgfmath@box=\box33
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -853,57 +829,57 @@ code.tex)
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count127
+\c@pgfmathroundto@lastzeros=\count128
 ))
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen156
-\pgf@picmaxx=\dimen157
-\pgf@picminy=\dimen158
-\pgf@picmaxy=\dimen159
-\pgf@pathminx=\dimen160
-\pgf@pathmaxx=\dimen161
-\pgf@pathminy=\dimen162
-\pgf@pathmaxy=\dimen163
-\pgf@xx=\dimen164
-\pgf@xy=\dimen165
-\pgf@yx=\dimen166
-\pgf@yy=\dimen167
-\pgf@zx=\dimen168
-\pgf@zy=\dimen169
+\pgf@picminx=\dimen154
+\pgf@picmaxx=\dimen155
+\pgf@picminy=\dimen156
+\pgf@picmaxy=\dimen157
+\pgf@pathminx=\dimen158
+\pgf@pathmaxx=\dimen159
+\pgf@pathminy=\dimen160
+\pgf@pathmaxy=\dimen161
+\pgf@xx=\dimen162
+\pgf@xy=\dimen163
+\pgf@yx=\dimen164
+\pgf@yy=\dimen165
+\pgf@zx=\dimen166
+\pgf@zy=\dimen167
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen170
-\pgf@path@lasty=\dimen171
+\pgf@path@lastx=\dimen168
+\pgf@path@lasty=\dimen169
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen172
-\pgf@shorten@start@additional=\dimen173
+\pgf@shorten@end@additional=\dimen170
+\pgf@shorten@start@additional=\dimen171
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box35
-\pgf@hbox=\box36
-\pgf@layerbox@main=\box37
-\pgf@picture@serial@count=\count128
+\pgfpic=\box34
+\pgf@hbox=\box35
+\pgf@layerbox@main=\box36
+\pgf@picture@serial@count=\count129
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen174
+\pgflinewidth=\dimen172
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen175
-\pgf@pt@y=\dimen176
-\pgf@pt@temp=\dimen177
+\pgf@pt@x=\dimen173
+\pgf@pt@y=\dimen174
+\pgf@pt@temp=\dimen175
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -920,13 +896,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen178
+\pgfarrowsep=\dimen176
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen179
-\pgf@sys@shading@range@num=\count129
+\pgf@max=\dimen177
+\pgf@sys@shading@range@num=\count130
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -935,7 +911,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box38
+\pgfexternal@startupbox=\box37
 ))
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -952,7 +928,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box39
+\pgfnodeparttextbox=\box38
 )
 (f:/program/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -961,695 +937,16 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (f:/program/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.190   \pgfusepathqfill}
-                         
-? r
-OK, entering \nonstopmode...
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.190   \pgfusepathqfill}
-                         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.190   \pgfusepathqfill}
-                         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.190   \pgfusepathqfill}
-                         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.190   \pgfusepathqfill}
-                         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.209   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.214   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.214   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.214   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.214   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.214   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.214   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.214   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.221   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.221   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.221   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.221   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.221   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.221   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.221   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.226   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.226   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.226   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.226   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.226   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.226   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.226   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.232   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.232   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.232   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.232   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.232   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.232   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.232   \pgfusepathqstroke}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.237   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.237   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.237   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.237   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.237   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.237   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.237   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.237   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.237   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.245   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.245   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.245   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.245   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.245   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.245   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\pgfsys@svg@newline ->\Hnewline 
-                                
-l.245   \pgfusepathqfillstroke}
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\pgf@nodesepstart=\dimen180
-\pgf@nodesepend=\dimen181
+\pgf@nodesepstart=\dimen178
+\pgf@nodesepend=\dimen179
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 )) (f:/program/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks33
-\verbatim@line=\toks34
+\every@verbatim=\toks31
+\verbatim@line=\toks32
 \verbatim@in@stream=\read2
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/environ/environ.sty
@@ -1658,23 +955,23 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (f:/program/texlive/2016/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks35
+\@envbody=\toks33
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count130
+\etb@tempcnta=\count131
 )
-\tcb@titlebox=\box40
-\tcb@upperbox=\box41
-\tcb@lowerbox=\box42
-\tcb@phantombox=\box43
-\c@tcbbreakpart=\count131
-\c@tcblayer=\count132
-\tcolorbox@number=\count133
+\tcb@titlebox=\box39
+\tcb@upperbox=\box40
+\tcb@lowerbox=\box41
+\tcb@phantombox=\box42
+\c@tcbbreakpart=\count132
+\c@tcblayer=\count133
+\tcolorbox@number=\count134
+\tcb@temp=\box43
 \tcb@temp=\box44
 \tcb@temp=\box45
 \tcb@temp=\box46
-\tcb@temp=\box47
 \tcb@out=\write5
 \tcb@record@out=\write6
 )
@@ -1683,8 +980,8 @@ Package: glossaries 2016/04/30 v4.23 (NLCT)
 
 (f:/program/texlive/2016/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2015/12/17 v2.02 (NLCT)
-\@glsmfirst=\toks36
-\@glsmrest=\toks37
+\@glsmfirst=\toks34
+\@glsmrest=\toks35
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1697,7 +994,7 @@ Package: datatool-base 2016/01/18 v2.25 (NLCT)
 
 (f:/program/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
-\@mathmargin=\skip63
+\@mathmargin=\skip64
 
 For additional information on amsmath, use the `?' option.
 (f:/program/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -1705,57 +1002,57 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (f:/program/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks38
-\ex@=\dimen182
+\@emptytoks=\toks36
+\ex@=\dimen180
 ))
 (f:/program/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen183
+\pmbraise@=\dimen181
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count134
+\inf@bad=\count135
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count135
-\leftroot@=\count136
+\uproot@=\count136
+\leftroot@=\count137
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count137
-\DOTSCASE@=\count138
+\classnum@=\count138
+\DOTSCASE@=\count139
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box48
-\strutbox@=\box49
-\big@size=\dimen184
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen182
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count139
-\c@MaxMatrixCols=\count140
+\macc@depth=\count140
+\c@MaxMatrixCols=\count141
 \dotsspace@=\muskip11
-\c@parentequation=\count141
-\dspbrk@lvl=\count142
-\tag@help=\toks39
-\row@=\count143
-\column@=\count144
-\maxfields@=\count145
-\andhelp@=\toks40
-\eqnshift@=\dimen185
-\alignsep@=\dimen186
-\tagshift@=\dimen187
-\tagwidth@=\dimen188
-\totwidth@=\dimen189
-\lineht@=\dimen190
-\@envbody=\toks41
-\multlinegap=\skip64
-\multlinetaggap=\skip65
-\mathdisplay@stack=\toks42
+\c@parentequation=\count142
+\dspbrk@lvl=\count143
+\tag@help=\toks37
+\row@=\count144
+\column@=\count145
+\maxfields@=\count146
+\andhelp@=\toks38
+\eqnshift@=\dimen183
+\alignsep@=\dimen184
+\tagshift@=\dimen185
+\tagwidth@=\dimen186
+\totwidth@=\dimen187
+\lineht@=\dimen188
+\@envbody=\toks39
+\multlinegap=\skip65
+\multlinetaggap=\skip66
+\mathdisplay@stack=\toks40
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count146
+\c@su@anzahl=\count147
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2016/01/18 v2.25 (NLCT)
@@ -1766,19 +1063,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (f:/program/texlive/2016/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count147
+\actioncount=\count148
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count148
-\FP@xia=\count149
-\FP@xib=\count150
-\FP@xfa=\count151
-\FP@xfb=\count152
-\FP@rega=\count153
-\FP@regb=\count154
-\FP@regs=\count155
-\FP@times=\count156
+\FP@xs=\count149
+\FP@xia=\count150
+\FP@xib=\count151
+\FP@xfa=\count152
+\FP@xfb=\count153
+\FP@rega=\count154
+\FP@regb=\count155
+\FP@regs=\count156
+\FP@times=\count157
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1797,7 +1094,7 @@ Package: fp-pas 1994/08/29
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count157
+\FPseed=\count158
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1808,15 +1105,15 @@ Package: fp-upn 1996/10/21
 (f:/program/texlive/2016/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks43
-\@dtl@tmpcount=\count158
-\dtl@tmplength=\skip66
-\dtl@sortresult=\count159
-\@dtl@numgrpsepcount=\count160
-\@dtl@datatype=\count161
-\dtl@codeA=\count162
-\dtl@codeB=\count163
-\@dtl@foreach@level=\count164
+\@dtl@toks=\toks41
+\@dtl@tmpcount=\count159
+\dtl@tmplength=\skip67
+\dtl@sortresult=\count160
+\@dtl@numgrpsepcount=\count161
+\@dtl@datatype=\count162
+\dtl@codeA=\count163
+\dtl@codeB=\count164
+\@dtl@foreach@level=\count165
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/glossaries/base/glossaries-compat
 ible-307.sty
@@ -1835,13 +1132,13 @@ uage-mappings.tex))
 lish.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count165
-\@gls@tmpb=\toks44
-\gls@tmplen=\skip67
-\glskeylisttok=\toks45
-\glslabeltok=\toks46
-\glsshorttok=\toks47
-\glslongtok=\toks48
+\gls@level=\count166
+\@gls@tmpb=\toks42
+\gls@tmplen=\skip68
+\glskeylisttok=\toks43
+\glslabeltok=\toks44
+\glsshorttok=\toks45
+\glslongtok=\toks46
 
 (f:/program/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
@@ -1850,576 +1147,59 @@ Package: glossary-hypernav 2016/04/30 v4.23 (NLCT)
 (f:/program/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
 ty
 Package: glossary-list 2016/04/30 v4.23 (NLCT)
-\glslistdottedwidth=\skip68
+\glslistdottedwidth=\skip69
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
 ty
 Package: glossary-long 2016/04/30 v4.23 (NLCT)
  (f:/program/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip69
-\LTright=\skip70
-\LTpre=\skip71
-\LTpost=\skip72
-\LTchunksize=\count166
-\LTcapwidth=\dimen191
-\LT@head=\box50
-\LT@firsthead=\box51
-\LT@foot=\box52
-\LT@lastfoot=\box53
-\LT@cols=\count167
-\LT@rows=\count168
-\c@LT@tables=\count169
-\c@LT@chunks=\count170
-\LT@p@ftn=\toks49
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count167
+\LTcapwidth=\dimen189
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count168
+\LT@rows=\count169
+\c@LT@tables=\count170
+\c@LT@chunks=\count171
+\LT@p@ftn=\toks47
 )
-\glsdescwidth=\skip73
-\glspagelistwidth=\skip74
+\glsdescwidth=\skip74
+\glspagelistwidth=\skip75
 )
 (f:/program/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-super.
 sty
 Package: glossary-super 2016/04/30 v4.23 (NLCT)
  (f:/program/texlive/2016/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count171
-\ST@wd=\dimen192
-\ST@rightskip=\skip75
-\ST@leftskip=\skip76
-\ST@parfillskip=\skip77
-\ST@pageleft=\dimen193
-\ST@headht=\dimen194
-\ST@tailht=\dimen195
-\ST@pagesofar=\dimen196
-\ST@pboxht=\dimen197
-\ST@lineht=\dimen198
-\ST@stretchht=\dimen199
-\ST@prevht=\dimen256
-\ST@toadd=\dimen257
-\ST@dimen=\dimen258
-\ST@pbox=\box54
+\c@tracingst=\count172
+\ST@wd=\dimen190
+\ST@rightskip=\skip76
+\ST@leftskip=\skip77
+\ST@parfillskip=\skip78
+\ST@pageleft=\dimen191
+\ST@headht=\dimen192
+\ST@tailht=\dimen193
+\ST@pagesofar=\dimen194
+\ST@pboxht=\dimen195
+\ST@lineht=\dimen196
+\ST@stretchht=\dimen197
+\ST@prevht=\dimen198
+\ST@toadd=\dimen199
+\ST@dimen=\dimen256
+\ST@pbox=\box53
 ))
 (f:/program/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
 ty
 Package: glossary-tree 2016/04/30 v4.23 (NLCT)
-\glstreeindent=\skip78
-)) (f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
-version 2009-01-07-07:11
---------------------------------------
---- Note --- for additional information, use the command line option `info'
---------------------------------------
-
-::::::::::::::::::::::::::::::::::::::::::
- TeX4ht info is available in the log file 
-::::::::::::::::::::::::::::::::::::::::::
-) (f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/tex4ht.sty
-version 2008-10-27-17:23
-
---- needs --- tex4ht main ---
-\tmp:cnt=\count172
-\openout15 = `main.tmp'.
-
-(./main.tmp)
-\tmp:dim=\skip79
---------------------------------------
---- Note --- for XML code, use the command line option `xml' or `xhtml'
---------------------------------------
- (./main.xref)
-\:refout=\write7
-\openout7 = `main.xref'.
-
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
---------------------------------------
---- Note --- to remove the <?xml version=...?> processing instruction use the c
-ommand line option `no-VERSION'
---------------------------------------
---------------------------------------
---- Note --- to remove the DOCTYPE declaration use the command line option `no-
-DOCTYPE'
---------------------------------------
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-)
---------------------------------------
---- Note --- for marking of the base font, use the command line option `fonts+'
-
---------------------------------------
---------------------------------------
---- Note --- for non active _, use the command line option `no_'
---------------------------------------
---------------------------------------
---- Note --- for _ of catcode 13, use the command line option `_13'
---------------------------------------
---------------------------------------
---- Note --- for non active ^, use the command line option `no^'
---------------------------------------
---------------------------------------
---- Note --- for ^ of catcode 13, use the command line option `^13'
---------------------------------------
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
---------------------------------------
---- Note --- for alternative charset, use the command line option `charset=...'
-
---------------------------------------
---------------------------------------
---- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
-on
---------------------------------------
---------------------------------------
---- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
-haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
-hes of tex4ht.c) 
---------------------------------------
---------------------------------------
---- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
-haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
-hes of tex4ht.c) 
---------------------------------------
---------------------------------------
---- Note --- for content and toc in 2 frames, use the command line option `fram
-es'
---------------------------------------
---------------------------------------
---- Note --- for content, toc, and footnotes in 3 frames, use the command line 
-option `frames-fn'
---------------------------------------
---------------------------------------
---- Note --- for file extension name xht, use the command line option `xht'
---------------------------------------
-TeX4ht package options: html
---------------------------------------
---- Note --- To print a timestamp, use the command line option timestamp
---------------------------------------
---------------------------------------
---- Note --- to ignore CSS code, use the command line option `-css
---------------------------------------
---------------------------------------
---- Note --- for inline CSS code, use the command line option `css-in'
---------------------------------------
---------------------------------------
---- Note --- for pop ups on mouse over, use the command line option `mouseover'
-
---------------------------------------
---------------------------------------
---- Note --- for addressing images in a subdirectory, use the command line opti
-on `imgdir:.../'
---------------------------------------
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-)
-\:tokwrite=\toks50
-\:tokpage=\toks51
---------------------------------------
---- Note --- for back links to toc, use the command line option `sections+'
---------------------------------------
---------------------------------------
---- Note --- for linear crosslinks of pages, use the command line option `next'
-
---------------------------------------
-\openout15 = `main.4ct'.
-
-\:tocout=\write8
-\openout8 = `main.4tc'.
-
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/latex.4ht
-version 2009-05-21-09:32
---------------------------------------
---- Note --- for links into captions, instead of float heads, use the command l
-ine option `refcaption'
---------------------------------------
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
---------------------------------------
---- Note --- For mini tocs immediately aftter the header use the command line o
-ption `minitoc<'
---------------------------------------
---------------------------------------
---- Note --- for enumerated list elements with valued data, use the command lin
-e option `enumerate+'
---------------------------------------
---------------------------------------
---- Note --- for enumerated list elements li's with value attributes, use the c
-ommand line option `enumerate-'
---------------------------------------
---------------------------------------
---- Note --- for CSS2 code, use the command line option `css2'
---------------------------------------
---------------------------------------
---- Note --- for pictorial tabular, use the command line option `pic-tabular'
---------------------------------------
---------------------------------------
---- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
---------------------------------------
---------------------------------------
---- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
-
---------------------------------------
---------------------------------------
---- Note --- for inline footnotes use command line option `fn-in'
---------------------------------------
---------------------------------------
---- Note --- for tracing of latex font commands, use the command line option `f
-onts'
---------------------------------------
---------------------------------------
---- Note --- for width specifications of tabular p entries, use the `p-width' c
-ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
-style="width:\HColWidth"}}
---------------------------------------
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
---------------------------------------
---- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
-
---------------------------------------
---------------------------------------
---- Note --- for pictorial array, use the command line option `pic-array'
---------------------------------------
---------------------------------------
---- Note --- for pictorial $...$ environments, use the command line option `pic
--m' (not recommended!!)
---------------------------------------
---------------------------------------
---- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use t
-he command line option `pic-m+' (not safe!!)
---------------------------------------
---------------------------------------
---- Note --- for pictorial array, use the command line option `pic-array'
---------------------------------------
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/fontmath.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/article.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
---------------------------------------
---- Note --- for automatic sectioning pagination, use the command line option `
-1', `2', `3', '4', '5', '6', or '7'
---------------------------------------
---------------------------------------
---- Note --- for files named derived from section titles, use the command line 
-option `sec-filename'
---------------------------------------
---------------------------------------
---- Note --- for i-columns index, use the command line option `index=i' (e.g., 
-index=2)
---------------------------------------
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/graphicx.4ht
-version 2015-08-05-15:37
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/graphics.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
---------------------------------------
---- Note --- if included graphics are of degraded quality, try the command line
- options `graphics-num' or `graphics-'. The `num' should provide the density of
- pixels in the bitmaps (e.g., 110). 
---------------------------------------
---------------------------------------
---- Note --- for key dimensions try the option `Gin-dim'; for key dimensions wh
-en bounding box is unavailable try `Gin-dim+'; neither is recommended
---------------------------------------
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/dvips.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/inputenc.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/utf8.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/babel.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/english.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/hyperref.4ht
-version 2016-01-12-16:05
-
-(f:/program/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count173
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/nameref.4ht
-version 2013-06-28-15:01
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-LaTeX Info: Redefining \autoref on input line 95.
-\Hy@SectionHShift=\skip80
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/pd1enc.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/url.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
---------------------------------------
---- Note --- for URL encoding within href use the command line option `url-enc'
-
---------------------------------------
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/caption.4ht
-version 2013-03-03-19:41
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/ifthen.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/xcolor.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/color.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/color.4ht
-version 2009-05-21-09:32
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/wrapfig.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/listings.4ht
-version 2014-07-13-16:08
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
---------------------------------------
---- Note --- to ensure proper alignments use fixed size fonts (see listings.dtx
-)
---------------------------------------
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/pgf.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/everyshi.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/verbatim.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/glossaries.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/amsmath.4ht
-version 2009-05-21-09:32
-\tmp:muskip=\muskip12
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/amstext.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/amsbsy.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/amsopn.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/longtable.4ht
-version 2009-05-21-09:32
-\LT:box=\box55
-\LT:ebox=\box56
-\tmp:bx=\box57
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
---------------------------------------
---- Note --- for pictorial longtable, use the command line option `pic-longtabl
-e'
---------------------------------------
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/supertabular.4ht
-version 2009-05-21-09:32
-
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2016-03-31-11:13
-)
-(f:/program/texlive/2016/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
-(./main.aux)
+\glstreeindent=\skip79
+)) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
@@ -2440,10 +1220,38 @@ LaTeX Font Info:    ... okay on input line 98.
 \openout3 = `main.sta'.
 
 
+(f:/program/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count173
+\scratchdimen=\dimen257
+\scratchbox=\box54
+\nofMPsegments=\count174
+\nofMParguments=\count175
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count176
+\MPscratchDim=\dimen258
+\MPnumerator=\count177
+\makeMPintoPDFobject=\count178
+\everyMPtoPDFconversion=\toks49
+) (f:/program/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(f:/program/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(f:/program/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -2454,8 +1262,8 @@ LaTeX Font Info:    ... okay on input line 98.
 * \paperheight=845.04684pt
 * \textwidth=540.60239pt
 * \textheight=731.23584pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-65.36449pt
 * \headheight=25.0pt
 * \headsep=25.0pt
@@ -2474,93 +1282,58 @@ LaTeX Font Info:    ... okay on input line 98.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box58
+\AtBeginShipoutBox=\box55
 Package hyperref Info: Link coloring OFF on input line 98.
+(f:/program/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(f:/program/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count179
+)
 LaTeX Info: Redefining \ref on input line 98.
 LaTeX Info: Redefining \pageref on input line 98.
 LaTeX Info: Redefining \nameref on input line 98.
+
+(./main.out) (./main.out)
+\@outlinefile=\write7
+\openout7 = `main.out'.
+
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: Incompatible package detected (regarding \caption).
-(caption)             \caption = macro:->\SkipRefstepAnchor \ifx \@captype \@un
-defined \@latex@error {\noexpand \caption outside float}\@ehd \expandafter \@go
-bble \else \refstepcounter \@captype \expandafter \@firstofone \fi {\@dblarg {\
-@caption \@captype }}.
-Package caption Info: Incompatible package detected (regarding \@caption).
-(caption)             \@caption = \long macro:#1[#2]->\gdef \NR:Type {\@currenv
-ir }\gdef \NR:Title {\a:newlabel {#2}}\o:NR@@caption {#1}[{#2}].
-
-Package caption Warning: \caption will not be redefined since it's already
-(caption)                redefined by a document class or package which is
-(caption)                unknown to the caption package.
-See the caption package documentation for explanation.
-
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
+
 (f:/program/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: wrapfig package is loaded.
-
-
-! Package caption Error: The `subcaption' package does not work correctly
-(caption)                in compatibility mode.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 \begin{document}
-                     
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count174
---- file main.css ---
-l. 100 Writing main.idv[1] (main0x.png)
+\c@lstlisting=\count180
 
-! LaTeX Error: File `icon' not found.
+ABD: EveryShipout initializing macros
+<images/signature.jpg, id=115, 349.305pt x 201.75375pt>
+File: images/signature.jpg Graphic file (type jpg)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 \maketitle
-                
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 101.
+(pdftex.def)             Requested size: 71.12828pt x 34.14375pt.
+ (./main.toc)
+\tf@toc=\write8
+\openout8 = `main.toc'.
 
-l. 100 Writing main.idv[2] (main1x.png)
+
+<images/icon.png, id=144, 350.05782pt x 176.91093pt>
+File: images/icon.png Graphic file (type png)
+ <use images/icon.png>
+Package pdftex.def Info: images/icon.png used on input line 104.
+(pdftex.def)             Requested size: 358.53381pt x 181.19449pt.
+
 [1
 
-]
-l. 100 Writing main.idv[3] (main2x.png)
-l. 100 Writing main.idv[4] (main3x.png)
- [2]
-
-! LaTeX Error: File `signature' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 \maketitle
-                
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(./main.4ct)
-l. 104 Writing main.idv[5] (main4x.png)
-l. 104 Writing main.idv[6] (main5x.png)
- [3] (./sections/Introduction.tex
+{f:/program/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/icon.png> <./images/signature.jpg>] (./sections/Introduction.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
 
 (f:/program/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
@@ -2568,376 +1341,230 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
---- file main2.html ---
---- file main3.html ---
---- file main4.html ---
---- file main5.html ---
-l. 44 Writing main.idv[7] (main6x.png)
-l. 45 Writing main.idv[8] (main7x.png)
-l. 45 Writing main.idv[9] (main8x.png)
- [4]
-(./programs/lab.conf) (./programs/PC1.startup) (./programs/PC2.startup)
-l. 62 Writing main.idv[10] (main9x.png)
-l. 62 Writing main.idv[11] (main10x.png)
-
-[5]) (./sections/ExploretheNetwork.tex
-
-! LaTeX Error: File `endDevice' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ...s[height=4cm, width=\linewidth]{endDevice}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `intermediaryDevice' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 ...4cm, width=\linewidth]{intermediaryDevice}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-l. 33 Writing main.idv[12] (main11x.png)
-l. 33 Writing main.idv[13] (main12x.png)
-[6]
-
-! LaTeX Error: File `media' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...cs[height=5cm, width=0.5\textwidth]{media}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `NIC' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54   \includegraphics[width=\linewidth]{NIC}
-                                              
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\b:wrapfloat ->\endWrap 
-                        
-l.57 \end{wrapfigure}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-l. 75 Writing main.idv[14] (main13x.png)
-l. 75 Writing main.idv[15] (main14x.png)
-[7]
-l. 75 Writing main.idv[16] (main15x.png)
-l. 75 Writing main.idv[17] (main16x.png)
- [8
-
-]
-
-! LaTeX Error: File `networkRepSymbol' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 ...m, width=0.75\textwidth]{networkRepSymbol}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-l. 80 Writing main.idv[18] (main17x.png)
-l. 80 Writing main.idv[19] (main18x.png)
-[9
-
-]
-l. 82 Writing main.idv[20] (main19x.png)
-l. 82 Writing main.idv[21] (main20x.png)
- [10
-
-]
-l. 82 Writing main.idv[22] (main21x.png)
-l. 82 Writing main.idv[23] (main22x.png)
- [11
-
-]
-
-! LaTeX Error: File `logicalTopology' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 ...=6.5cm, width=\linewidth]{logicalTopology}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `PhysicalTopology' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 ...6.5cm, width=\linewidth]{PhysicalTopology}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-l. 98 Writing main.idv[24] (main23x.png)
-l. 98 Writing main.idv[25] (main24x.png)
-[12
-
-]
-l. 113 Writing main.idv[26] (main25x.png)
-l. 113 Writing main.idv[27] (main26x.png)
- [13
-
-]
-l. 113 Writing main.idv[28] (main27x.png)
-l. 113 Writing main.idv[29] (main28x.png)
- [14
-
-]
-
-! LaTeX Error: File `lansAndWans' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 ...t=7cm, width=0.75\textwidth]{lansAndWans}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-l. 118 Writing main.idv[30] (main29x.png)
-l. 118 Writing main.idv[31] (main30x.png)
-[15
-
-]
-l. 126 Writing main.idv[32] (main31x.png)
-l. 126 Writing main.idv[33] (main32x.png)
- [16
-
-]
-l. 126 Writing main.idv[34] (main33x.png)
-l. 126 Writing main.idv[35] (main34x.png)
- [17
-
-]
-
-! LaTeX Error: File `Internet' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 ...s[height=7cm, width=\linewidth]{Internet}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `InternetIntranetExtranet' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.136 ...dth=\linewidth]{InternetIntranetExtranet}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-l. 140 Writing main.idv[36] (main35x.png)
-l. 140 Writing main.idv[37] (main36x.png)
-[18
-
-]
-l. 162 Writing main.idv[38] (main37x.png)
-l. 162 Writing main.idv[39] (main38x.png)
- [19
-
-]
-l. 162 Writing main.idv[40] (main39x.png)
-l. 162 Writing main.idv[41] (main40x.png)
- [20
-
-]
-
-! LaTeX Error: File `userConnect' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 ...eight=5cm, width=\linewidth]{userConnect}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `businessConnect' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.172 ...t=5cm, width=\linewidth]{businessConnect}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-l. 178 Writing main.idv[42] (main41x.png)
-l. 178 Writing main.idv[43] (main42x.png)
-[21
-
-]
---- file main6.html ---
---- file main7.html ---
---- file main8.html ---
-
-
-! LaTeX Error: File `faultTolerence' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.201 ...cm, width=0.75\textwidth]{faultTolerence}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `scability' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.211 ...ght=7cm, width=0.75\textwidth]{scability}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-l. 218 Writing main.idv[44] (main43x.png)
-l. 218 Writing main.idv[45] (main44x.png)
-[22
-
-
-]
-
-! LaTeX Error: File `qos' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.221 ...cs[height=7cm, width=0.75\textwidth]{qos}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `security' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.231 ...ight=7cm, width=0.75\textwidth]{security}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 52.
+
+(./programs/lab.conf) (./programs/PC1.startup
+File: images/signature.jpg Graphic file (type jpg)
+ <use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 3.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+
+[2]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 3.
+ (f:/program/texlive/2016/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+)
+(./programs/PC2.startup)) (./sections/ExploretheNetwork.tex
+<images/endDevice.png, id=216, 564.60938pt x 313.17pt>
+File: images/endDevice.png Graphic file (type png)
+
+<use images/endDevice.png>
+Package pdftex.def Info: images/endDevice.png used on input line 18.
+(pdftex.def)             Requested size: 270.30296pt x 113.81151pt.
+
+<images/intermediaryDevice.png, id=217, 380.92313pt x 138.5175pt>
+File: images/intermediaryDevice.png Graphic file (type png)
+
+<use images/intermediaryDevice.png>
+Package pdftex.def Info: images/intermediaryDevice.png used on input line 24.
+(pdftex.def)             Requested size: 270.31198pt x 113.81123pt.
+File: images/signature.jpg Graphic file (type jpg)
+ <use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 36.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+ [3]
+<images/media.png, id=255, 491.58656pt x 334.24875pt>
+File: images/media.png Graphic file (type png)
+ <use images/media.png>
+Package pdftex.def Info: images/media.png used on input line 41.
+(pdftex.def)             Requested size: 270.31343pt x 142.26549pt.
+
+<images/NIC.png, id=256, 464.4853pt x 263.48438pt>
+File: images/NIC.png Graphic file (type png)
+ <use images/NIC.png>
+Package pdftex.def Info: images/NIC.png used on input line 54.
+(pdftex.def)             Requested size: 71.13188pt x 40.34915pt.
+
+<images/networkRepSymbol.png, id=264, 490.08093pt x 338.01282pt>
+File: images/networkRepSymbol.png Graphic file (type png)
+
+<use images/networkRepSymbol.png>
+Package pdftex.def Info: images/networkRepSymbol.png used on input line 77.
+(pdftex.def)             Requested size: 405.4659pt x 184.94829pt.
+
+<images/logicalTopology.png, id=265, 523.20468pt x 355.3275pt>
+File: images/logicalTopology.png Graphic file (type png)
+
+<use images/logicalTopology.png>
+Package pdftex.def Info: images/logicalTopology.png used on input line 86.
+(pdftex.def)             Requested size: 270.30365pt x 184.94485pt.
+
+<images/PhysicalTopology.png, id=266, 532.23843pt x 332.74312pt>
+File: images/PhysicalTopology.png Graphic file (type png)
+
+<use images/PhysicalTopology.png>
+Package pdftex.def Info: images/PhysicalTopology.png used on input line 92.
+(pdftex.def)             Requested size: 270.30914pt x 184.9437pt.
+File: images/signature.jpg Graphic file (type jpg)
+ <use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 104.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+ [4 <./images/endDevice.png> <./images/intermediaryDevice.png> <./images/media.
+png> <./images/NIC.png>] <images/lansAndWans.png, id=296, 542.025pt x 392.96812
+pt>
+File: images/lansAndWans.png Graphic file (type png)
+
+<use images/lansAndWans.png>
+Package pdftex.def Info: images/lansAndWans.png used on input line 115.
+(pdftex.def)             Requested size: 405.46738pt x 199.17586pt.
+File: images/signature.jpg Graphic file (type jpg)
+ <use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 125.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+ [5 <./images/networkRepSymbol.png> <./images/logicalTopology.png> <./images/Ph
+ysicalTopology.png>]
+<images/Internet.png, id=310, 508.14844pt x 319.94531pt>
+File: images/Internet.png Graphic file (type png)
+
+<use images/Internet.png>
+Package pdftex.def Info: images/Internet.png used on input line 130.
+(pdftex.def)             Requested size: 270.30986pt x 199.16956pt.
+
+<images/InternetIntranetExtranet.png, id=311, 347.04657pt x 351.56343pt>
+File: images/InternetIntranetExtranet.png Graphic file (type png)
+
+<use images/InternetIntranetExtranet.png>
+Package pdftex.def Info: images/InternetIntranetExtranet.png used on input line
+ 136.
+(pdftex.def)             Requested size: 270.30865pt x 199.16478pt.
+File: images/signature.jpg Graphic file (type jpg)
+ <use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 156.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+ [6 <./images/lansAndWans.png> <./images/Internet.png> <./images/InternetIntran
+etExtranet.png>] <images/userConnect.png, id=327, 529.98pt x 331.99031pt>
+File: images/userConnect.png Graphic file (type png)
+
+<use images/userConnect.png>
+Package pdftex.def Info: images/userConnect.png used on input line 166.
+(pdftex.def)             Requested size: 270.30238pt x 142.26166pt.
+
+<images/businessConnect.png, id=328, 532.99126pt x 334.24875pt>
+File: images/businessConnect.png Graphic file (type png)
+
+<use images/businessConnect.png>
+Package pdftex.def Info: images/businessConnect.png used on input line 172.
+(pdftex.def)             Requested size: 270.30925pt x 142.26549pt.
+
+<images/faultTolerence.png, id=336, 534.49687pt x 329.73187pt>
+File: images/faultTolerence.png Graphic file (type png)
+
+<use images/faultTolerence.png>
+Package pdftex.def Info: images/faultTolerence.png used on input line 201.
+(pdftex.def)             Requested size: 405.47151pt x 199.17393pt.
+
+<images/scability.png, id=337, 542.77782pt x 356.0803pt>
+File: images/scability.png Graphic file (type png)
+
+<use images/scability.png>
+Package pdftex.def Info: images/scability.png used on input line 211.
+(pdftex.def)             Requested size: 405.46735pt x 199.16997pt.
+File: images/signature.jpg Graphic file (type jpg)
+ <use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 218.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+ [7 <./images/userConnect.png> <./images/businessConnect.png>]
+<images/qos.png, id=354, 557.83406pt x 349.305pt>
+File: images/qos.png Graphic file (type png)
+ <use images/qos.png>
+Package pdftex.def Info: images/qos.png used on input line 221.
+(pdftex.def)             Requested size: 405.46204pt x 199.16988pt.
+
+<images/security.png, id=362, 557.83406pt x 343.2825pt>
+File: images/security.png Graphic file (type png)
+
+<use images/security.png>
+Package pdftex.def Info: images/security.png used on input line 231.
+(pdftex.def)             Requested size: 405.46204pt x 199.16684pt.
 ) (./sections/ConfigureaNetworkOperatingSystem.tex)
 (./sections/NetworkProtocolsandCommunications.tex)
 (./sections/NetworkAccess.tex) (./sections/Ethernet.tex)
 (./sections/NetworkLayer.tex) (./sections/IPAddressing.tex)
 (./sections/SubnettingIPNetworks.tex) (./sections/TransportLayer.tex)
-l. 137 Writing main.idv[46] (main45x.png)
-l. 137 Writing main.idv[47] (main46x.png)
- [23]
 (./sections/ApplicationLayer.tex) (./sections/BuildaSmallNetwork.tex)
-l. 143 Writing main.idv[48] (main47x.png)
-l. 143 Writing main.idv[49] (main48x.png)
- [24]
-l. 145 Writing main.idv[50] (main49x.png)
-l. 145 Writing main.idv[51] (main50x.png)
+File: images/signature.jpg Graphic file (type jpg)
 
-[25] (./main.4ct)
-l. 149 Writing main.idv[52] (main51x.png)
-l. 149 Writing main.idv[53] (main52x.png)
- [26]
+<use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 143.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+ [8 <./images/faultTolerence.png> <./images/scability.png>]
+File: images/signature.jpg Graphic file (type jpg)
+ <use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 143.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+ [9 <./images/qos.png> <./images/security.png>]
+File: images/signature.jpg Graphic file (type jpg)
+ <use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 143.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+ [10] (./main.lof
+File: images/signature.jpg Graphic file (type jpg)
+ <use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 3.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+
+[11])
+\tf@lof=\write9
+\openout9 = `main.lof'.
+
+File: images/signature.jpg Graphic file (type jpg)
+ <use images/signature.jpg>
+Package pdftex.def Info: images/signature.jpg used on input line 149.
+(pdftex.def)             Requested size: 39.83076pt x 17.07033pt.
+ [12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
-l. 149 Writing main.idv[54] (main53x.png)
-l. 149 Writing main.idv[55] (main54x.png)
- [27]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 149.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 149.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 00DCE64335C590EEC7C3A093B83BE672;1707.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 29781 strings out of 493015
- 506200 string characters out of 6133354
- 779911 words of memory out of 5000000
- 32488 multiletter control sequences out of 15000+600000
- 10351 words of font info for 38 fonts, out of 8000000 for 9000
+ 25618 strings out of 493014
+ 452507 string characters out of 6133328
+ 642562 words of memory out of 5000000
+ 28451 multiletter control sequences out of 15000+600000
+ 10183 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,9n,102p,2374b,1307s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,16n,96p,1919b,1959s stack positions out of 5000i,500n,10000p,200000b,80000s
+<f:/program/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+><f:/program/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<f:/program/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><f
+:/program/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/
+program/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><f:/pr
+ogram/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><f:/prog
+ram/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><f:/program
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><f:/program/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><f:/program/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><f:/program/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><f:/program/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/program/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><f:/program/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:/program/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><f:/program/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on main.pdf (12 pages, 1669875 bytes).
+PDF statistics:
+ 528 PDF objects out of 1000 (max. 8388607)
+ 470 compressed objects within 5 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on main.dvi (27 pages, 99988 bytes).
